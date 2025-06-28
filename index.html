@@ -3,42 +3,119 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="TechSimplified - Latest tech tips, guides, and tutorials." />
-  <title>TechSimplified - Smart Tech Tips</title>
+  <meta name="description" content="TechSimplified - Expert tech tips, how-to guides, gadget reviews, and tutorials to simplify your digital life." />
+  <meta name="keywords" content="tech tips, tutorials, gadget reviews, technology, how-to guides, tech news" />
+  <meta name="author" content="TechSimplified Team" />
+  <meta name="robots" content="index, follow" />
+  <title>TechSimplified - Expert Tech Tips & Reviews</title>
   <link rel="stylesheet" href="style.css" />
-  <!-- Google AdSense verification placeholder -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <!-- Google AdSense Auto Ads -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
-    <h1>TechSimplified</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Blog</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav>
+    <div class="container">
+      <div class="logo">
+        <a href="index.html"><img src="/images/techsimplified-logo.png" alt="TechSimplified Logo" class="logo-img" /></a>
+        <span class="site-title">TechSimplified</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="menu-toggle">☰</div>
+    </div>
   </header>
 
   <main>
-    <article>
-      <h2>Welcome to TechSimplified</h2>
-      <p>Your source for simple tech tips, how-to guides, and gadget reviews.</p>
-    </article>
-
-    <section class="posts">
-      <article>
-        <h3>How to Speed Up Your Android Phone</h3>
-        <p>Learn 5 quick tips to make your Android device run faster. <a href="#">Read more</a></p>
-      </article>
-      <article>
-        <h3>Top 5 Free Apps for Remote Work</h3>
-        <p>Boost your productivity with these must-have free tools. <a href="#">Read more</a></p>
-      </article>
+    <section class="hero">
+      <div class="container">
+        <h1>Simplify Your Tech Life</h1>
+        <p>Expert guides, reviews, and tips to master technology effortlessly.</p>
+        <a href="blog.html" class="cta-button">Discover Now</a>
+      </div>
     </section>
+
+    <section class="featured-posts container">
+      <h2>Latest Articles</h2>
+      <div class="posts-grid">
+        <article>
+          <img src="https://via.placeholder.com/400x200" alt="Speed Up Android" class="post-image">
+          <h3>How to Speed Up Your Android Phone</h3>
+          <p>Boost your device's performance with these 5 proven tips.</p>
+          <a href="blog/android-speed-tips.html" class="read-more">Read More</a>
+        </article>
+        <article>
+          <img src="https://via.placeholder.com/400x200" alt="Remote Work Apps" class="post-image">
+          <h3>Top 5 Free Apps for Remote Work</h3>
+          <p>Essential tools to enhance your remote productivity.</p>
+          <a href="blog/remote-work-apps.html" class="read-more">Read More</a>
+        </article>
+      </div>
+    </section>
+
+    <aside class="sidebar">
+      <div class="ad-unit">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456" crossorigin="anonymous"></script>
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-1234567890123456"
+             data-ad-slot="1234567890"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+      <div class="newsletter">
+        <h4>Subscribe to Our Newsletter</h4>
+        <p>Get the latest tech tips delivered to your inbox.</p>
+        <form action="https://formspree.io/your-email@example.com" method="POST">
+          <input type="email" name="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </aside>
   </main>
 
   <footer>
-    <p>© 2025 TechSimplified | <a href="#">Privacy Policy</a></p>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>TechSimplified</h4>
+          <p>Your go-to resource for tech expertise since 2025.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="https://twitter.com/TechSimplified" target="_blank">Twitter</a>
+            <a href="https://facebook.com/TechSimplified" target="_blank">Facebook</a>
+            <a href="https://linkedin.com/company/TechSimplified" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <p class="footer-note">© 2025 TechSimplified. All rights reserved.</p>
+    </div>
   </footer>
+
+  <script>
+    // Mobile menu toggle
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+      document.querySelector('nav ul').classList.toggle('show');
+    });
+  </script>
 </body>
-</html>
+            </html>
