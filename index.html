@@ -1,121 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="TechSimplified - Expert tech tips, how-to guides, gadget reviews, and tutorials to simplify your digital life." />
-  <meta name="keywords" content="tech tips, tutorials, gadget reviews, technology, how-to guides, tech news" />
-  <meta name="author" content="TechSimplified Team" />
-  <meta name="robots" content="index, follow" />
-  <title>TechSimplified - Expert Tech Tips & Reviews</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  <!-- Google AdSense Auto Ads -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional website showcasing my work, blog, and contact information.">
+    <meta name="keywords" content="portfolio, blog, professional, [your name]">
+    <meta name="author" content="[Your Name]">
+    <title>[Your Name] | Professional Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div class="logo">
-        <a href="index.html"><img src="/images/techsimplified-logo.png" alt="TechSimplified Logo" class="logo-img" /></a>
-        <span class="site-title">TechSimplified</span>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">[Your Name]</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-      </nav>
-      <div class="menu-toggle">☰</div>
-    </div>
-  </header>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
 
-  <main>
-    <section class="hero">
-      <div class="container">
-        <h1>Simplify Your Tech Life</h1>
-        <p>Expert guides, reviews, and tips to master technology effortlessly.</p>
-        <a href="blog.html" class="cta-button">Discover Now</a>
-      </div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Professional Website</h1>
+            <p>I'm [Your Name], a [your profession, e.g., Web Developer] passionate about creating impactful solutions.</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
     </section>
 
-    <section class="featured-posts container">
-      <h2>Latest Articles</h2>
-      <div class="posts-grid">
-        <article>
-          <img src="https://via.placeholder.com/400x200" alt="Speed Up Android" class="post-image">
-          <h3>How to Speed Up Your Android Phone</h3>
-          <p>Boost your device's performance with these 5 proven tips.</p>
-          <a href="blog/android-speed-tips.html" class="read-more">Read More</a>
-        </article>
-        <article>
-          <img src="https://via.placeholder.com/400x200" alt="Remote Work Apps" class="post-image">
-          <h3>Top 5 Free Apps for Remote Work</h3>
-          <p>Essential tools to enhance your remote productivity.</p>
-          <a href="blog/remote-work-apps.html" class="read-more">Read More</a>
-        </article>
-      </div>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="https://via.placeholder.com/150" alt="[Your Name] Portrait" class="about-img">
+            <div class="about-text">
+                <p>I’m a [your profession] with [X years] of experience in [your field]. My expertise includes [key skills, e.g., web development, UI/UX design].</p>
+                <p>My mission is to [your mission, e.g., build user-friendly applications that solve real-world problems].</p>
+                <ul>
+                    <li><strong>Education</strong>: [Your degree, university]</li>
+                    <li><strong>Skills</strong>: [e.g., HTML, CSS, JavaScript, Python]</li>
+                    <li><strong>Experience</strong>: [Key role or achievement]</li>
+                </ul>
+                <a href="about.html" class="btn">Learn More</a>
+            </div>
+        </div>
     </section>
 
-    <aside class="sidebar">
-      <div class="ad-unit">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456" crossorigin="anonymous"></script>
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-1234567890123456"
-             data-ad-slot="1234567890"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-      <div class="newsletter">
-        <h4>Subscribe to Our Newsletter</h4>
-        <p>Get the latest tech tips delivered to your inbox.</p>
-        <form action="https://formspree.io/your-email@example.com" method="POST">
-          <input type="email" name="email" placeholder="Enter your email" required>
-          <button type="submit">Subscribe</button>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300x200" alt="Project 1">
+                <h3>Project 1: E-Commerce Platform</h3>
+                <p>Built a scalable online store with payment integration using React and Stripe.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300x200" alt="Project 2">
+                <h3>Project 2: Portfolio Website</h3>
+                <p>Designed a responsive personal website hosted on GitHub Pages.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300x200" alt="Project 3">
+                <h3>Project 3: Data Dashboard</h3>
+                <p>Created an interactive dashboard for data visualization using D3.js.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Preview Section -->
+    <section id="blog" class="section">
+        <h2>Latest Blog Posts</h2>
+        <div class="blog-grid">
+            <div class="blog-item">
+                <h3>Web Development Trends in 2025</h3>
+                <p>Explore the latest tools and frameworks shaping the web development landscape.</p>
+                <a href="blog-post-1.html" class="btn">Read More</a>
+            </div>
+            <div class="blog-item">
+                <h3>How to Optimize Your Website</h3>
+                <p>Learn tips for improving site performance and user experience.</p>
+                <a href="blog-post-2.html" class="btn">Read More</a>
+            </div>
+        </div>
+        <a href="blog.html" class="btn">View All Posts</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>Reach out for collaborations or inquiries.</p>
+        <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
         </form>
-      </div>
-    </aside>
-  </main>
+        <div class="social-links">
+            <a href="[Your LinkedIn URL]"><i class="fab fa-linkedin"></i></a>
+            <a href="[Your Twitter/X URL]"><i class="fab fa-twitter"></i></a>
+            <a href="[Your GitHub URL]"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
 
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-section">
-          <h4>TechSimplified</h4>
-          <p>Your go-to resource for tech expertise since 2025.</p>
-        </div>
-        <div class="footer-section">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="terms.html">Terms of Service</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </div>
-        <div class="footer-section">
-          <h4>Follow Us</h4>
-          <div class="social-links">
-            <a href="https://twitter.com/TechSimplified" target="_blank">Twitter</a>
-            <a href="https://facebook.com/TechSimplified" target="_blank">Facebook</a>
-            <a href="https://linkedin.com/company/TechSimplified" target="_blank">LinkedIn</a>
-          </div>
-        </div>
-      </div>
-      <p class="footer-note">© 2025 TechSimplified. All rights reserved.</p>
-    </div>
-  </footer>
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 [Your Name]. All rights reserved.</p>
+        <p><a href="#about">About</a> | <a href="#portfolio">Portfolio</a> | <a href="#blog">Blog</a> | <a href="#contact">Contact</a></p>
+    </footer>
 
-  <script>
-    // Mobile menu toggle
-    document.querySelector('.menu-toggle').addEventListener('click', () => {
-      document.querySelector('nav ul').classList.toggle('show');
-    });
-  </script>
+    <script>
+        // Toggle mobile menu
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
 </body>
-            </html>
+  </html>
