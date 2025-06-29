@@ -1,1 +1,1 @@
-# TechEaseGuide-
+# TechEaseGuide.io
